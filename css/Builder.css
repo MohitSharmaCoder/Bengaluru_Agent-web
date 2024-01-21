@@ -1,0 +1,33 @@
+.main-table{
+    display: flex;
+    flex-direction: column;
+}
+.main-table .t-head{
+    display: flex;
+    border-bottom: 1px solid rgb(185, 185, 185);
+}
+.t-head div{
+    padding: 5px 10px;
+    width: 200px;
+    /* scroll-behavior: auto; */
+}
+.t-bod{
+    text-align: left;
+}
+.t-bod .div-link{
+    display: flex;
+}
+.t-bod .div-link:hover{
+    background-color: rgb(209, 207, 207);
+}
+.t-bod div{
+    padding: 5px 10px;
+    width: 200px;
+    /* scroll-behavior: auto;   */
+}
+.main-table a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px 0px;
+    display: inline-block;
+}

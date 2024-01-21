@@ -1,0 +1,15 @@
+.flex-container {
+    display: flex;
+    align-items:center;
+    width:100%;
+    height:100vh;
+    justify-content:center;
+  }
+  
+  .flex-container .form-box {
+    width: 300px;
+  }
+
+  .f-lable{
+    padding: 0px;
+  }
